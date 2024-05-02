@@ -1,0 +1,223 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+:root{
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+}
+
+
+body{
+    background-color: var(--Grayish-Blue)
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+
+
+.manrope-medium {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+
+.manrope-bold {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.section-principal{
+    margin: auto;
+    background-image: url('../images/drawers.jpg');
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: 326px 200px;
+    width: 326px;
+    height: auto;
+    border-radius: 15px;
+}
+
+@media (min-width: 1024px){
+    .section-principal{
+        width: 730px;
+        height: 280px;
+        background-position: left; 
+        background-size: 326px 286px;
+    }
+}
+
+
+
+.cuadro-texto h2{
+    color: var( --Very-Dark-Grayish-Blue);
+    margin: 29px;
+        font-size: 17px;
+        padding-top: 240px;
+        line-height: 1.3;
+        margin-bottom: 16px;
+}
+
+@media (min-width: 1024px){
+    .cuadro-texto h2{
+        font-size: 20px;
+        padding-top: 30px;
+        margin-left: 360px;
+        margin-bottom: -20px;
+    }
+}
+
+
+.cuadro-texto p{
+    color: var( --Desaturated-Dark-Blue);
+    margin: 29px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (min-width: 1024px){
+    .cuadro-texto p{
+        font-size: 13px;
+        margin-left: 360px;
+        margin-bottom: -3px;
+    }
+}
+
+.cuadro-avatar{
+    margin: 29px;
+    display: flex; 
+    justify-content: flex-start;
+    margin: 29px;
+}
+
+@media (min-width: 1024px){
+    .cuadro-avatar{
+        margin-left: 360px;
+    }
+}
+
+.avatar img{
+    width: 40px;
+    border-radius: 50px;
+}
+
+.cuadro-avatar-texto{
+    margin-left: 10px;
+    margin-right: 55px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 1024px){
+    .cuadro-avatar-texto{
+        margin-right: 130px;
+    }
+}
+
+.cuadro-avatar-texto h6{
+    color: var( --Very-Dark-Grayish-Blue);
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.cuadro-avatar-texto p{
+    color: var( --Desaturated-Dark-Blue);
+    font-size: 14px;
+}
+
+
+.compartir{
+    background-color: var(--Light-Grayish-Blue);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.compartir img{
+    padding-top: 10px;
+}
+
+#cuadro-social{
+    display: none;
+    background-color: var(--Very-Dark-Grayish-Blue);
+    color: #fff;
+    width: 326px;
+    height: 81px;
+    border-radius: 0px 0px 15px 15px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    top: 482px;
+}
+
+@media (min-width: 1024px){
+    #cuadro-social {
+        display: none;
+        box-shadow: 10px 10px 17px 0px rgba(0, 0, 0, 0.18);
+        width: 271px;
+        height: 64px;
+        border-radius: 15px;
+        top: 140px;
+        left: 880px;
+    }
+}
+
+.compartir-social{
+    background-color: var(--Light-Grayish-Blue);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+@media (min-width: 1024px){
+    .compartir-social{
+        display: none;
+    }
+}
+
+.compartir-social img{
+    padding-top: 10px;
+}
+
+.share{
+    margin-left: 15px;
+}
+
+.share p{
+    color: var(--Grayish-Blue);
+    letter-spacing: 5px;
+}
+
+.iconos-sociales{
+    display: flex;
+}
+
+.iconos-sociales i{
+    margin: 0px 10px 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
